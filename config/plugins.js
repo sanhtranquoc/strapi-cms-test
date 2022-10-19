@@ -10,10 +10,10 @@ module.exports = ({ env }) => ({
         // These parameters could solve issues with ACL public-read access — see [this issue](https://github.com/strapi/strapi/issues/5868) for details
         actionOptions: {
             upload: {
-                ACL: 'public-read'
+                ACL: null
             },
             uploadStream: {
-                ACL: 'public-read'
+                ACL: null
             },
         }
         },
